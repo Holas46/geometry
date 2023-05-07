@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'letra';
+    src: url('letra.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+nav{
+  font-family: letra;
+  letter-spacing: 2px;
+}
+h1{
+  font-family: letra;
+  letter-spacing: 2px;
+}
+h3{
+font-family: Comic Sans MS;
+}
+
+body{
+  width: 100%;
+  background-image:url(imagenesgd/fondoh.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:white;
+  margin:0;
+
+}
+
+nav {
+  background-color: #134E73;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: safe center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 0px;
+}
+
+nav a {
+  color: #74FFE8;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+  transition: background-color 0.4s ease;
+  width: 300px;
+}
+
+nav a:hover {
+  background-color: #102173;
+  box-shadow: 0 0 30px #74FFE8; 
+}
+nav ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+nav ul ul {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #134E73;
+  width: 100%;
+  transition: all 0.4s ease;
+}
+
+nav ul ul li {
+  display: block;
+  float: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav ul ul li a {
+  color: #74FFE8;
+  padding: 15px;
+  width: 100%;
+  display: block;
+}
+
+nav ul ul li a:hover {
+  background-color: #102173;
+  box-shadow: 0 0 30px #74FFE8; 
+}
+nav ul ul li a {
+  color: #74FFE8;
+  display: block;
+  padding: 20px;
+  width: 20em;
+  border: 2em
+}
+#queesgd{
+  color: #44F4BC;
+  -webkit-text-stroke: 1px #662CB9;
+  text-stroke: 1px #662CB9;
+
+}
+#gd{
+  color: #D4FFB4;
+  line-height: 2em;
+  width: 72em;
+  text-align: justify;
+  margin: 0.5em auto;
+  padding: 0.5em 2em;    
+  background-color: #185774;
+  border: 10px double aqua;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+  border-radius: 1rem;
+}
+#quienrobtop{
+  margin-left: 2em;
+  color: #BBF352;
+  -webkit-text-stroke: 1px #BBAD3B;
+  text-stroke: 1px #BBAD3B;
+}
+#robtop{
+  color: #E7F3B8;
+  line-height: 2em;
+  width: 50em;
+  text-align: justify;
+  margin: 0.5em auto;
+  padding: 0.5em 2em;    
+  background-color: #347A61;
+  border: 10px double #FFC747;
+  box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.5);
+  float: left;
+  margin-left: 2em;
+  border-radius: 1rem;
+}
+
+#primagen{
+  display: block;
+  margin: auto;
+  border-radius: 1rem;
+}
+#imgrobtop{
+  float: justify;
+}
+#impo{
+  float: right;
+  color: #D4FFB4;
+  line-height: 2em;
+  width: 50em;
+  text-align: justify;
+  margin: 0.5em auto;
+  padding: 0.5em 2em;    
+  background-color: #185774;
+  border: 10px double aqua;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+  margin-right: 2em;
+  border-radius: 1rem;
+}
+#impot{
+  float: right;
+  margin-left: 2em;
+  color: #8000FF;
+  -webkit-text-stroke: 1px #2A0092;
+  text-stroke: 1px #2A0092; 
+  margin-right: 2em;
+}
+#gifimpo{
+  margin-left: 2em;
+  align-items: justify;
+  border-radius: 1rem;
+}
+footer{
+  background-color: #091B9E;
+  text-align: center;
+  color: #00FFF0;
+}

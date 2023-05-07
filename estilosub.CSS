@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'letra';
+    src: url('letra.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+nav{
+  font-family: letra;
+  letter-spacing: 2px;
+}
+h1{
+  font-family: letra;
+  letter-spacing: 2px;
+}
+h3{
+font-family: Comic Sans MS;
+}
+
+body{
+  width: 100%;
+  background-image:url("imagenesgd/fondoeli.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin:0;
+
+}
+nav {
+  background-color: #662395;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: safe center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 0px;
+}
+
+nav a {
+  color: #D39BFA;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+  transition: background-color 0.4s ease;
+  width: 300px;
+}
+
+nav a:hover {
+  background-color: #391454;
+  box-shadow: 0 0 30px #C500FF; 
+}
+nav ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+nav ul ul {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #662395;
+  width: 100%;
+  transition: all 0.4s ease;
+}
+
+nav ul ul li {
+  display: block;
+  float: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav ul ul li a {
+  color: #D39BFA;
+  padding: 15px;
+  width: 100%;
+  display: block;
+}
+
+nav ul ul li a:hover {
+  background-color: #391454;
+  box-shadow: 0 0 30px #C500FF; 
+}
+nav ul ul li a {
+  color: #D39BFA;
+  display: block;
+  padding: 20px;
+  width: 20em;
+  border: 2em
+}
+#queessub{
+  float: left;
+  margin-left: 2em;
+  color: #CEA3FF;
+  -webkit-text-stroke: 1px #8147AC;
+  text-stroke: 1px #8147AC;
+
+}
+#carasub{
+margin-left: 3em;
+border-radius: 1rem;
+}
+#sub{
+  margin-left: 2em;
+  float: left;
+  color: #EBBDF3;
+  line-height: 2em;
+  width: 60em;
+  height: 18em;
+  text-align: justify;
+  padding: 0.5em 2em;    
+  background-color: #6F187E;
+  border: 10px double #BD00FF;
+  box-shadow: 0 0 10px 5px rgba(189, 0, 255 , 15);
+  border-radius: 1rem;
+}
+#contensub{
+  float: center;
+  color: #9136FF;
+  -webkit-text-stroke: 1px #310C6C;
+  text-stroke: 1px #310C6C;
+}
+#contenidosub{
+  color: #CBB4E8;
+  line-height: 2em;
+  width: 60em;
+  text-align: justify;
+  margin: 0.5em auto;
+  padding: 0.5em 2em;    
+  background-color: #310C6C;
+  border: 10px double #4800BB ;
+  box-shadow: 0 0 10px 5px rgba(72, 0, 187, 15);
+  border-radius: 1rem;
+}
+#titulonivelsub{
+  margin-left:4em;
+  font-size: large;
+  float: center;
+  color: #A676C4;
+  -webkit-text-stroke: 1px #52137A;
+  text-stroke: 1px #52137A;
+}
+#nivelessub{
+  color: #F4A186;
+  line-height: 2em;
+  width: 80em;
+  margin-left:4em;
+  text-align:justify;
+  padding: 0.5em 2em;    
+  background-color: #512D68;
+  border: 10px double #A347DD;
+  box-shadow: 0 0 10px 5px rgba(163, 71, 221);
+  border-radius: 1rem;
+}
+#subtitulonivel{
+  float: center;
+  margin-left: 2em;
+  color: #DFABFF;
+}
+#videosub{
+  height: 100vh;
+  border-radius: 1rem;
+  box-sizing: content-box;
+}
+#curiosidades{
+  margin: 0,auto;
+  color: #486AFF;
+  -webkit-text-stroke: 1px #011361;
+  text-stroke: 1px #011361;
+}
+#cur{
+  color: #A3B4FD;
+  line-height: 2em;
+  width: 80em;
+  height: 58em;
+  text-align: justify;
+  margin: 0.5em auto;
+  padding: 0.5em 2em;    
+  background-color: #0C2381;
+  border: 10px double #0031FF;
+  box-shadow: 0 0 10px 5px rgba(0, 49, 255, 15);
+  border-radius: 1rem;
+}
+#lactua{
+  text-decoration: none;
+  color: #4DA1FF;
+  transition: color 0.2s ease-in-out;
+}
+#lactua:hover {
+  color: #99C4F4;
+}

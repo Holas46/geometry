@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'letra';
+    src: url('letra.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+nav{
+  font-family: letra;
+  letter-spacing: 2px;
+}
+h1{
+  font-family: letra;
+  letter-spacing: 2px;
+}
+h3{
+font-family: Comic Sans MS;
+}
+
+body{
+  width: 100%;
+  top: -50%;
+  background-image:url(imagenesgd/fondoobj.png);
+  background-attachment: fixed;
+  background-size: cover;
+  color:white;
+  margin:0;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background-color: #134E73;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: safe center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 0px;
+}
+
+nav a {
+  color: #6CFFC9;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+  transition: background-color 0.4s ease;
+  width: 300px;
+}
+
+nav a:hover {
+  background-color: #102173;
+  box-shadow: 0 0 30px #74FFE8; 
+}
+nav ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+nav ul ul {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #134E73;
+  width: 100%;
+  transition: all 0.4s ease;
+}
+
+nav ul ul li {
+  display: block;
+  float: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav ul ul li a {
+  color: #6CFFC9;
+  padding: 15px;
+  width: 100%;
+  display: block;
+}
+
+nav ul ul li a:hover {
+  background-color: #102173;
+  box-shadow: 0 0 30px #74FFE8; 
+}
+nav ul ul li a {
+  color: #6CFFC9;
+  display: block;
+  padding: 20px;
+  width: 20em;
+  border: 2em
+}
+#objetos{
+  color: #20D5A1;
+  -webkit-text-stroke: 1px #064C79;
+  text-stroke: 1px #064C79;
+}
+#objetosimg{
+  display: block;
+  margin: auto;
+  border-radius: 1rem;
+}
+#textobjetos{
+  color: #A0F7DE;
+  line-height: 2em;
+  width: 72em;
+  text-align: justify;
+  margin: 0.5em auto;
+  padding: 0.5em 2em;    
+  background-color: #064C79;
+  border: 10px double #00F7FF;
+  box-shadow: 0 0 10px 5px rgba(0, 247, 255 , 15);
+  border-radius: 1rem;
+}
+#orbes{
+  margin-left: 2em;
+  float: left;
+  color: #00AAFF;
+  -webkit-text-stroke: 1px #045B9E;
+  text-stroke: 1px #045B9E;
+}
+#orbs{
+  color: #01FFFF;
+  line-height: 2em;
+  width: 45em;
+  margin-left: 4em;
+  text-align: justify;
+  padding: 0.5em 2em;    
+  background-color: #022E4F;
+  border: 10px double #07D5FF;
+  box-shadow: 0 0 10px 5px rgba(7, 213, 255 , 15);
+  border-radius: 1rem;
+  float: left;  
+}
+#orbsimg{
+  float: right;
+  margin-right: 10em;
+}
+#cofyllav{
+  margin-left: 2em;
+  float: left;
+  color: #DFFF7A;
+  -webkit-text-stroke: 1px #01609A;
+  text-stroke: 1px #01609A;
+}
+#cofr{
+  color: #DFFF7A;
+  line-height: 2em;
+  width: 45em;
+  margin-left: 4em;
+  text-align: justify;
+  padding: 0.5em 2em;    
+  background-color: #363432;
+  border: 10px double #BBBBBB;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255 , 15);
+  border-radius: 1rem;
+  float: left;  
+}
+#cofresimg{
+  float: right;
+  margin-right: 10em;
+}
+#tiendas{
+  color: #20D5A1;
+  -webkit-text-stroke: 1px #064C79;
+  text-stroke: 1px #064C79;
+}
+#subtiendas{
+  margin-left: 4em;
+  float: left;
+  color: #FE5E68;
+  -webkit-text-stroke: 1px #C72355;
+  text-stroke: 1px #C72355;
+}
+#texttiendas{
+  color: #F93BB5;
+  line-height: 2em;
+  width: 72em;
+  text-align: justify;
+  margin: 0.5em auto;
+  padding: 0.5em 2em;    
+  background-color: #54281B;
+  border: 10px double #FFA2AA;
+  box-shadow: 0 0 10px 5px rgba(255, 162, 170 , 15);
+  border-radius: 1rem;    
+}
+#subtiendasecret{
+  margin-left: 4em;
+  float: left;
+  color: #00C0AF;
+  -webkit-text-stroke: 1px #005A51;
+  text-stroke: 1px #005A51;
+}
+#texttiendasecret{
+  color: #A0F7DE;
+  line-height: 2em;
+  width: 72em;
+  text-align: justify;
+  margin: 0.5em auto;
+  padding: 0.5em 2em;    
+  background-color: #003322;
+  border: 10px double #008848;
+  box-shadow: 0 0 10px 5px rgba(0, 255, 135, 15);
+  border-radius: 1rem;    
+}
+#subtiendacomun{
+  margin-left: 4em;
+  float: left;
+  color: #FFF802;
+  -webkit-text-stroke: 1px #B96300;
+  text-stroke: 1px #B96300;
+}
+#texttiendacomun{
+  color: #FFF607;
+  line-height: 2em;
+  width: 72em;
+  text-align: justify;
+  margin: 0.5em auto;
+  padding: 0.5em 2em;    
+  background-color: #261854;
+  border: 10px double #734BFB;
+  box-shadow: 0 0 10px 5px rgba(115, 75, 251, 15);
+  border-radius: 1rem;    
+}

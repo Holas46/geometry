@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'letra';
+    src: url('letra.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+*{
+  font-family: letra;
+  letter-spacing: 2px;
+}
+
+
+body{
+  width: 100%;
+  background-image:url(imagenesgd/fondocomen.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:white;
+  margin:0;
+
+}
+
+nav {
+  background-color: #134E73;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: safe center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 0px;
+}
+
+nav a {
+  color: #74FFE8;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px;
+  transition: background-color 0.4s ease;
+  width: 300px;
+}
+
+nav a:hover {
+  background-color: #102173;
+  box-shadow: 0 0 30px #74FFE8; 
+}
+nav ul li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+nav ul ul {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #134E73;
+  width: 100%;
+  transition: all 0.4s ease;
+}
+
+nav ul ul li {
+  display: block;
+  float: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+nav ul ul li a {
+  color: #74FFE8;
+  padding: 15px;
+  width: 100%;
+  display: block;
+}
+
+nav ul ul li a:hover {
+  background-color: #102173;
+  box-shadow: 0 0 30px #74FFE8; 
+}
+nav ul ul li a {
+  color: #74FFE8;
+  display: block;
+  padding: 20px;
+  width: 20em;
+  border: 2em 
+}
+
+#comen{
+  color: #44F4BC;
+  -webkit-text-stroke: 1px #662CB9;
+  text-stroke: 1px #662CB9;
+}
+
+#elmargen {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+}
+
+#texto {
+    -webkit-text-stroke: 1px #0F587A;
+  text-stroke: 1px #0F587A;
+    text-align: justify;
+    color: #BAF3FF;
+    padding: 0.5em;
+    font-size: 1.5em;
+}
+input[type="text"] {
+  -webkit-text-stroke: 1px #0F587A;
+  text-stroke: 1px #0F587A;
+  background-color: #003F6A;
+  color: #BAF3FF;       
+}
+input[type="date"] {
+  -webkit-text-stroke: 1px #0F587A;
+  text-stroke: 1px #0F587A;
+  background-color: #003F6A;
+  color: #BAF3FF;
+}
+input[type="radio"] {
+  -webkit-text-stroke: 1px #0F587A;
+  text-stroke: 1px #0F587A;
+  appearance: none; /* Elimina la apariencia nativa del elemento */
+  border: 3px solid #BAF3FF; /* Agrega un borde para simular una caja */
+  border-radius: 4px; /* Aplica un borde redondeado */
+  width: 16px; /* Ajusta el ancho y la altura para que se vean como cajas */
+  height: 16px;
+  margin-right: 4px; /* Añade un margen derecho para separar los elementos */
+  display: inline-block; /* Asegura que los elementos se muestren en línea */
+  vertical-align: middle; /* Alinea los elementos verticalmente */
+}
+
+/* Agrega un estilo diferente al elemento seleccionado */
+input[type="radio"]:checked {
+  -webkit-text-stroke: 1px #0F587A;
+  text-stroke: 1px #0F587A;
+  background-color: #003F6A; /* Cambia el fondo cuando el elemento está seleccionado */
+  color: #BAF3FF; /* Cambia el color del texto para que se vea mejor */
+}
+
+select {
+  -webkit-text-stroke: 1px #0F587A;
+  text-stroke: 1px #0F587A;
+  background-color: #003F6A;
+  color: #BAF3FF;
+}
+textarea{
+  background-color: #003F6A;
+  color: #BAF3FF;
+  -webkit-text-stroke: 1px #0F587A;
+  text-stroke: 1px #0F587A;
+}
+input[type="submit"] {
+  -webkit-text-stroke: 1px #0F587A;
+  text-stroke: 1px #0F587A;
+  background-color: #003F6A;
+  color: #BAF3FF;
+}
+#gatob {
+  float: right;
+}
